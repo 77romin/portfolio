@@ -103,6 +103,46 @@
 
 ---
 
+### [HERRAG · 문서 기반 연애 시뮬레이션](https://github.com/77romin/herrag)
+
+> 업로드한 시나리오 문서를 바탕으로 인물과 대화하고, 사용자의 선택에 따라 장면과 결말이 달라지는 RAG 채팅 게임
+
+- MD·TXT·PDF 스토리팩의 설정과 진행 조건을 분석해 문서 기반 역할극 생성
+- 스토리팩별 검색 격리와 `supported`·`unspecified`·`contradiction` 근거 판단 적용
+- Dense·BM25 후보를 가중 RRF로 결합하고 현재 문서 안에서만 검색하도록 설계
+- 장면 진행, 분기 결말, 상태 검증, 내용 해시 기반 캐시와 RAG 평가 흐름 구현
+- **2인 팀 프로젝트:** 김강민, 추창우
+
+`Python` `FastAPI` `LangChain` `Chroma` `RAG` `BM25` `JavaScript`
+
+---
+
+### [TripRoute](https://github.com/77romin/trip-route)
+
+> 직접 만든 여행 동선을 지도에서 확인하고, 다른 사용자의 검증된 여행 계획을 공유·복사할 수 있는 웹 서비스
+
+- Google Maps 위에서 일자별 여행 장소와 이동 경로를 시각화
+- Google OAuth 인증과 여행 계획 생성·수정·삭제, 공개·비공개 설정 구현
+- 다른 사용자의 여행 계획 복사, 좋아요와 지역별 랭킹 기능 제공
+- Places·Directions·Geocoding API 연동과 대중교통 경유지 제약 폴백 처리
+
+**[서비스 바로가기](https://triproute.vercel.app/)** · `Next.js` `TypeScript` `Supabase` `PostgreSQL` `Google Maps API` `Vercel`
+
+---
+
+### [카페 메뉴 관리 서비스](https://github.com/77romin/NBE10-12-1-Team5)
+
+> 고객의 온라인 주문과 관리자의 상품·주문·계정 관리를 연결한 Spring Boot 기반 풀스택 웹 서비스
+
+- Next.js 기반 고객 주문 화면과 관리자 상품·주문·통계 대시보드 설계·구현
+- Spring Boot REST API와 연동하고 SSE 신규 주문 알림 흐름 구성
+- 주문 상태 전이, 배송일 계산, 재고 복원과 소프트 딜리트 정책 적용
+- **담당:** 프런트엔드 설계·구현, 백엔드 코드 리뷰·품질관리, 프로젝트 총괄 및 시연 영상 제작
+
+`Java` `Spring Boot` `Spring Data JPA` `Next.js` `TypeScript` `MySQL` `Docker` `SSE`
+
+---
+
 ### [Gospel Choir Practice · 항해자](https://github.com/77romin/gospel.letsgomin)
 
 > 성가대원이 자신의 파트를 듣고 지휘자가 지정한 구간을 반복 연습하는 웹 연습실
