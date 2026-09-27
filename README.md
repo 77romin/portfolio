@@ -90,7 +90,7 @@
 
 ---
 
-### [minstock](https://github.com/77romin/minstock)
+### [Minstock](https://github.com/77romin/minstock)
 
 > 여러 증권사의 국내·미국주식 자산을 하나의 터미널에서 조회하는 Go 기반 포트폴리오 TUI
 
@@ -205,8 +205,8 @@
 
 ## Language
 
-- **Korean** — Native
-- **English** — OPIc IM1
+- **Korean 🇰🇷** — Native
+- **English 🇺🇸** — Intermediate
 
 ---
 
